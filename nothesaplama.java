@@ -1,6 +1,8 @@
 import java.util.Scanner;
 import java.io.*;
 public class nothesaplama {
+        public static void main(String[] args) {
+
     int matematik, fizik, tarih, turkce, muzik;
     Scanner girdi = new Scanner(System.in);
     System.out.print("Matematik Notunuz : ");
@@ -8,7 +10,7 @@ public class nothesaplama {
     System.out.print("Fizik Notunuz : ");
     fizik= girdi.nextInt();
     System.out.print("Tarih Notunuz : ");
-    tarih= girdi.nextInt();
+    tarih= girdi.nextInt();https://github.com/coceli/java101-nothesaplama/blob/main/nothesaplama.java
     System.out.print("Türkçe Notunuz : ");
     turkce= girdi.nextInt();
     System.out.print("Müzik Notunuz : ");
